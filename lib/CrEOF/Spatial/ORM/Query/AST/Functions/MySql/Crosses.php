@@ -36,7 +36,7 @@ class Crosses extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Crosses';
+    protected $functionName = 'ST_Crosses';
 
     protected $minGeomExpr = 2;
 

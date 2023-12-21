@@ -35,7 +35,7 @@ class Contains extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Contains';
+    protected $functionName = 'MBRContains';
 
     protected $minGeomExpr = 2;
 

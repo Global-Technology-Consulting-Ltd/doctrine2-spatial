@@ -36,7 +36,7 @@ class GeometryType extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'GeometryType';
+    protected $functionName = 'ST_GeometryType';
 
     protected $minGeomExpr = 1;
 

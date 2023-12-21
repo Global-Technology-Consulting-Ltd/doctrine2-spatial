@@ -36,7 +36,7 @@ class EndPoint extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'EndPoint';
+    protected $functionName = 'ST_EndPoint';
 
     protected $minGeomExpr = 1;
 

@@ -36,7 +36,7 @@ class IsEmpty extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'IsEmpty';
+    protected $functionName = 'ST_IsEmpty';
 
     protected $minGeomExpr = 1;
 

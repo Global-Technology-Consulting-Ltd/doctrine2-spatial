@@ -37,7 +37,7 @@ class Overlaps extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Overlaps';
+    protected $functionName = 'MBROverlaps';
 
     protected $minGeomExpr = 2;
 

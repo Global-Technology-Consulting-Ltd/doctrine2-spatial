@@ -36,7 +36,7 @@ class IsClosed extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'IsClosed';
+    protected $functionName = 'ST_IsClosed';
 
     protected $minGeomExpr = 1;
 

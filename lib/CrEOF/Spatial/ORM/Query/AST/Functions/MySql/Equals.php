@@ -36,7 +36,7 @@ class Equals extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Equals';
+    protected $functionName = 'MBREquals';
 
     protected $minGeomExpr = 2;
 

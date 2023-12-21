@@ -35,7 +35,7 @@ class Disjoint extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Disjoint';
+    protected $functionName = 'MBRDisjoint';
 
     protected $minGeomExpr = 2;
 

@@ -35,7 +35,7 @@ class Area extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Area';
+    protected $functionName = 'ST_Area';
 
     protected $minGeomExpr = 1;
 

@@ -37,7 +37,7 @@ class NumPoints extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'NumPoints';
+    protected $functionName = 'ST_NumPoints';
 
     protected $minGeomExpr = 1;
 

@@ -36,7 +36,7 @@ class Centroid extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Centroid';
+    protected $functionName = 'ST_Centroid';
 
     protected $minGeomExpr = 1;
 

@@ -35,7 +35,7 @@ class Buffer extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Buffer';
+    protected $functionName = 'ST_Buffer';
 
     protected $minGeomExpr = 2;
 

@@ -36,7 +36,7 @@ class InteriorRingN extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'InteriorRingN';
+    protected $functionName = 'ST_InteriorRingN';
 
     protected $minGeomExpr = 2;
 

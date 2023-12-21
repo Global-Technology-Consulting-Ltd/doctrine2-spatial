@@ -36,7 +36,7 @@ class IsSimple extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'IsSimple';
+    protected $functionName = 'ST_IsSimple';
 
     protected $minGeomExpr = 1;
 

@@ -36,7 +36,7 @@ class SRID extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'SRID';
+    protected $functionName = 'ST_SRID';
 
     protected $minGeomExpr = 1;
 

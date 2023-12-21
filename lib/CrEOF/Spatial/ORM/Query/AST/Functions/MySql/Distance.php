@@ -35,7 +35,7 @@ use CrEOF\Spatial\ORM\Query\AST\Functions\AbstractSpatialDQLFunction;
 class Distance extends AbstractSpatialDQLFunction {
 
     protected $platforms = array('mysql');
-    protected $functionName = 'Distance';
+    protected $functionName = 'ST_Distance';
     protected $minGeomExpr = 2;
     protected $maxGeomExpr = 2;
 

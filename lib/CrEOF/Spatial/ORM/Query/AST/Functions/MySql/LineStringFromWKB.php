@@ -34,7 +34,7 @@ class LineStringFromWKB extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'LineStringFromWKB';
+    protected $functionName = 'ST_LineFromWKB';
 
     protected $minGeomExpr = 1;
 

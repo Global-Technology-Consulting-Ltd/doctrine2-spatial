@@ -37,7 +37,7 @@ class Touches extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Touches';
+    protected $functionName = 'ST_Touches';
 
     protected $minGeomExpr = 2;
 

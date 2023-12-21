@@ -37,7 +37,7 @@ class PointN extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'PointN';
+    protected $functionName = 'ST_PointN';
 
     protected $minGeomExpr = 1;
 

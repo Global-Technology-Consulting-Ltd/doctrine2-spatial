@@ -37,7 +37,7 @@ class Y extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Y';
+    protected $functionName = 'ST_Y';
 
     protected $minGeomExpr = 1;
 

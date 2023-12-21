@@ -36,7 +36,7 @@ class ExteriorRing extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'ExteriorRing';
+    protected $functionName = 'ST_ExteriorRing';
 
     protected $minGeomExpr = 1;
 

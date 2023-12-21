@@ -36,7 +36,7 @@ class Dimension extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Dimension';
+    protected $functionName = 'ST_Dimension';
 
     protected $minGeomExpr = 1;
 

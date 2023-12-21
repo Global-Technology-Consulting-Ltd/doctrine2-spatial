@@ -35,7 +35,7 @@ class StartPoint extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'StartPoint';
+    protected $functionName = 'ST_StartPointw';
 
     protected $minGeomExpr = 1;
 

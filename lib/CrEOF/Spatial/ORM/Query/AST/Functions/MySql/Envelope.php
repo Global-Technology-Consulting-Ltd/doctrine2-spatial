@@ -35,7 +35,7 @@ class Envelope extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Envelope';
+    protected $functionName = 'ST_Envelope';
 
     protected $minGeomExpr = 1;
 

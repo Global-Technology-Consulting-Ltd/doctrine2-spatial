@@ -36,7 +36,7 @@ class AsText extends AbstractSpatialDQLFunction implements ReturnsGeometryInterf
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'AsText';
+    protected $functionName = 'ST_AsText';
 
     protected $minGeomExpr = 1;
 
